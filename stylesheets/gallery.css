@@ -1,48 +1,33 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family:'PT Sans', sans-serif;
+  min-width: 996px;
+  background-color: #FAFAFA;
+}
+
+body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
 .gallery {
   position: relative;
   overflow: hidden;
 }
 
-.galleryRail {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.galleryRail img {
-  display: block;
-  width: 1020px;
-  margin: 0 auto;
-}
-
-.galleryRail figure {
-  width: 100vw;
-  min-width: 100vw;
-}
-
-.gallery figcaption {
-  height: 51px;
-  font-size: 14px;
-  line-height: 50px;
-  text-align: center;
-  color: rgba(0,0,0,.4);
-}
-
 .galleryNav {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   width: 100%;
-  height: calc(100% - 51px);
+  align-items: center;
 }
 
 .galleryNav div {
@@ -50,13 +35,10 @@
   width: 20px;
   height: 20px;
   margin: 30px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   cursor: pointer;
   z-index: 1;
-}
-
-.galleryNav .disabled {
-  opacity: 0;
-  cursor: default;
 }
 
 .galleryNav div::before,
@@ -85,3 +67,80 @@
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
 }
+
+
+.galleryRail {
+  margin-top: 100px;
+  display: flex;
+}
+
+.a {
+ background-image: url(../images/1.jpg);
+ width: 643px;
+ height: 643px;
+}
+
+.b {
+ background-image: url(../images/2.jpg);
+ width: 315px;
+ height: 315px;
+}
+
+.c {
+ background-image: url(../images/3.jpg);
+ width: 315px;
+ height: 315px;
+}
+
+.d {
+ background-image: url(../images/4.jpg);
+ width: 643px;
+ height: 643px;
+}
+
+.e {
+ background-image: url(../images/5.jpg);
+ width: 315px;
+ height: 315px;
+}
+
+.f {
+ background-image: url(../images/6.jpg);
+ width: 315px;
+ height: 315px;
+}
+
+.g {
+ background-image: url(../images/7.jpg);
+ width: 643px;
+ height: 643px;
+}
+
+.h {
+ background-image: url(../images/8.jpg);
+ width: 315px;
+ height: 315px;
+}
+
+.i {
+ background-image: url(../images/9.jpg);
+ width: 315px;
+ height: 315px;
+}
+
+
+/*@media screen and (max-width: 1460px) {
+  .body {
+    width: 100%
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .allImages.first {
+    margin-left: 10px;
+  }
+  .allImages.last {
+    padding-right: 10px;
+    width: 985px;
+  }
+}*/
