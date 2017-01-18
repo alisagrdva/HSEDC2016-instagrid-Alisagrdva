@@ -17,27 +17,20 @@
   opacity: .8;
 }
 
-.circle2 {
-  width: 52px;
-  height: 52px;
-  background-color: black;
-  border-radius: 50%;
-  p
-}
-
 .circle {
   width: 48px;
   height: 48px;
   background-color: white;
   border-radius: 50%;
+  border: solid 5px black;
 }
 
 .arrow {
   position: fixed;
   width: 20px;
   height: 20px;
-  border-right: 7px solid black;
-  border-bottom: 7px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
   margin: 8px;
 }
 
