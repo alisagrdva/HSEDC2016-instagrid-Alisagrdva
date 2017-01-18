@@ -16,22 +16,22 @@ body {
   transition: all .3s ease;
   flex-direction: row;
   width: 100%;
-  height: 50vh;
+  height: 48vh;
 }
 
 .small figure {
-  width: 40vh;
-  height: 40vh;
+  width: 41.2vh;
+  height: 41.2vh;
   display: block;
 }
 
 .small figure img {
-  width: 40vh;
-  height: 40vh;
-  /*ТУТ РАЗОБРАТЬСЯ С РАЗМЕРОМ!!!!              */
+  width: 41.2vh;
+  height: 41.2vh;
+
 }
 
 .big figure img {
-  width: 80vh;
-  height: 80vh;
+  width: 82.4vh;
+  height: 82.4vh;
 }

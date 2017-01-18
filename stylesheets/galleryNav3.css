@@ -1,0 +1,45 @@
+.galleryNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 21vh;
+  margin-left: -13vh;
+  width: 98%;
+  position: fixed;
+  z-index: 1;
+}
+
+
+.btn {
+  cursor: pointer;
+  opacity: .4;
+}
+
+.btn:hover {
+  opacity: .8;
+}
+
+.circle {
+  width: 48px;
+  height: 48px;
+  background-color: white;
+  border-radius: 50%;
+  border: solid 5px black;
+}
+
+.arrow {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  margin: 8px;
+}
+
+.prev {
+  transform: rotate(135deg);
+}
+
+.next {
+  transform: rotate(-45deg);
+}

@@ -40,14 +40,14 @@
 }
 
 .footer div img {
-  width: 6vh;
-  height: 6vh;
-
+  width: 10vh;
+  height: 10vh;
+  margin-top: -3vh;
 }
 
 .la {
   display: flex;
-  font-family: 'PT Sans';
+  font-family: 'Patua One', cursive;
   font-size: 4vh;
   text-decoration: none;
   color: inherit;
