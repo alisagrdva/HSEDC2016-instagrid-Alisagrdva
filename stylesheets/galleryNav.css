@@ -1,0 +1,50 @@
+.galleryNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23vh;
+  width: 100%;
+  position: fixed;
+}
+
+
+.btn {
+  cursor: pointer;
+  opacity: .4;
+}
+
+.btn:hover {
+  opacity: .8;
+}
+
+.circle2 {
+  width: 52px;
+  height: 52px;
+  background-color: black;
+  border-radius: 50%;
+  p
+}
+
+.circle {
+  width: 48px;
+  height: 48px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.arrow {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-right: 7px solid black;
+  border-bottom: 7px solid black;
+  margin: 8px;
+}
+
+.prev {
+  transform: rotate(135deg);
+}
+
+.next {
+  transform: rotate(-45deg);
+}

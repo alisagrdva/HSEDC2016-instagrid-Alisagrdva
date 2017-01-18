@@ -1,0 +1,34 @@
+body {
+  min-width: 996px;
+  overflow-y: hidden;
+
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+}
+
+.galleryRail {
+  display: flex;
+  transition: all .3s ease;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.small figure {
+  width: 50vh;
+  height: 50vh;
+  display: block;
+}
+
+.small figure img {
+  width: 50vh;
+  height: 50vh;
+}
+
+.big figure img {
+  width: 100vh;
+  height: 100vh;
+}
